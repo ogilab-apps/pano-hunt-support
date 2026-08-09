@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pano Hunt サポート</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #f8f8f8;
+      --border: #ececec;
+      --text: #1c2a3a;
+      --muted: #737373;
+      --accent: #8a6a1f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12140f;
+        --card: #1d1f18;
+        --border: #2c2e24;
+        --text: #f3f4ef;
+        --muted: #a0a294;
+        --accent: #e2c274;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", sans-serif;
+      line-height: 1.9;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    .brand { font-weight: 700; font-size: 22px; letter-spacing: 0.02em; }
+    .brand .hunt { color: var(--accent); }
+    .tagline { color: var(--muted); font-size: 14px; margin-top: 4px; }
+    h2 { font-size: 19px; margin: 40px 0 12px; padding-left: 12px; border-left: 4px solid var(--accent); }
+    p, li { font-size: 15.5px; }
+    ul { padding-left: 24px; margin: 8px 0; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+      font-size: 15px;
+    }
+    a { color: var(--accent); }
+    footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Pano <span class="hunt">Hunt</span></div>
+    <p class="tagline">360°の世界で宝を探すゲーム</p>
+
+    <h2>アプリについて</h2>
+    <p>
+      Pano Hunt は、360°の風景を見回してお題の物を探すゲームです。
+      ただし<strong>お題の物が世界に存在しないことがあります</strong>。
+      見つけてタップするか、「存在しない」と宣言するか ── その駆け引きが本作の遊びです。
+    </p>
+    <p>
+      スコアや設定はすべて端末内に保存され、<strong>通信は一切使いません</strong>(機内モードでも遊べます)。
+    </p>
+
+    <h2>遊び方</h2>
+    <ul>
+      <li>画面をドラッグして 360°見回す / ピンチでズーム</li>
+      <li>見つけたら、その場所を<strong>長押し</strong>して確定</li>
+      <li>存在しないと思ったら、画面上部のお題を<strong>長押し</strong>して「ナシ!」宣言</li>
+      <li>遊び方はアプリ内の「設定 → 冒険ガイド」からいつでも読み返せます</li>
+    </ul>
+
+    <h2>お問い合わせ</h2>
+    <div class="card">
+      <p>ご意見・ご要望・不具合のご報告は、メールでお気軽にご連絡ください。</p>
+      <p>メール: <a href="mailto:panohunt@gmail.com">panohunt@gmail.com</a></p>
+    </div>
+
+    <h2>プライバシーポリシー</h2>
+    <p><a href="./privacy.html">プライバシーポリシー</a></p>
+
+    <h2 lang="en">English</h2>
+    <p lang="en">
+      Pano Hunt is a 360° hidden-object game — but the thing you are told to find
+      might not be there at all. Find it and press and hold it, or call it missing.
+      All data stays on your device and the app works completely offline.<br />
+      For support, feedback, or bug reports, email
+      <a href="mailto:panohunt@gmail.com">panohunt@gmail.com</a>.<br />
+      <a href="./privacy-en.html">Privacy Policy</a>
+    </p>
+
+    <footer>© 2026 Pano Hunt</footer>
+  </main>
+</body>
+</html>
